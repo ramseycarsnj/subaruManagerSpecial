@@ -1,0 +1,282 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+h2 {
+position: absolute;
+top:10px;
+left: 15px;
+z-index: 8888;
+display: inline-block;
+font-size: 23px;
+margin: 0;
+}
+.trim {
+  position: absolute;
+  top: 25px;
+  left: 12px;
+  font-size: 14px;
+}
+.description {
+  position: absolute;
+  top: 625px;
+  left: 45px;
+  z-index: 8888;
+}
+.price {
+  margin: 0;
+  position: absolute;
+  left: 30px;
+  font-size: 55px;
+  font-weight:bold;
+  top: 255px;
+}
+.msrp {
+  margin: 0;
+  position: absolute;
+  left: 149px;
+  top: 325px;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+.mileage {
+  margin: 0;
+  position: absolute;
+  top: 325px;
+  left: 30px;
+  font-size: 14px;
+  font-weight: 900;
+  color: rgb(16, 167, 22);
+}
+.modelCode {
+  position: absolute;
+  top: 605px;
+  left: 60px;
+  z-index: 8888;
+}
+a {
+  color: #ffffff;
+  background-color: #20609F;
+  font-size: 18px;
+  padding: 10px 74px;
+  top: 679px;
+  left:10px;
+  position: absolute;
+  text-decoration: none;
+  z-index: 8888;
+}
+a:hover {
+  background-color: #194d81;
+}
+#slideshow {
+    margin: 50px 0;
+    position: relative;
+    width: 270px;
+    height: 733px;
+    padding:0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+.slideshowImg {
+  width: 270px;
+  padding-top: 60px;
+  margin-left: -10px;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+#slideshow2 {
+    margin: 50px 0;
+    position: relative;
+    width: 270px;
+    height: 733px;
+    padding:0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+#slideshow2 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+#slideshow3 {
+    margin: 50px 0;
+    position: relative;
+    width: 270px;
+    height: 733px;
+    padding: 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+#slideshow3 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+#slideshow4 {
+    margin: 50px 0;
+    position: relative;
+    width: 270px;
+    height: 733px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+#slideshow4 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+#slideshow5 {
+    margin: 50px 0;
+    position: relative;
+    width: 270px;
+    height: 733px;
+    padding: 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+#slideshow5 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+#slideshow6 {
+    margin: 50px 0;
+    position: relative;
+    width: 270px;
+    height: 733px;
+    padding: 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+#slideshow6 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+#slideshow7 {
+    margin: 50px 0;
+    position: relative;
+    width: 270px;
+    height: 733px;
+    padding: 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+#slideshow7 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+#slideshow8 {
+    margin: 50px 0;
+    position: relative;
+    width: 270px;
+    height: 733px;
+    padding: 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+#slideshow8 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+.featureImg {
+  position: absolute;
+  left: 30px;
+  width: 40px;
+  top: 360px;
+}
+.featureInfo {
+  position: absolute;
+  left: 80px;
+  top: 366px;
+  margin: 0;
+  font-size: 14px;
+}
+.featureImg2 {
+  position: absolute;
+  left: 30px;
+  width: 40px;
+  top: 410px;
+}
+.featureInfo2 {
+  position: absolute;
+  left: 80px;
+  top: 416px;
+  margin: 0;
+  font-size: 14px;
+}
+.featureImg3 {
+  position: absolute;
+  left: 30px;
+  width: 40px;
+  top: 462px;
+}
+.featureInfo3 {
+  position: absolute;
+  left: 80px;
+  top: 468px;
+  margin: 0;
+  font-size: 14px;
+}
+.featureImg4 {
+  position: absolute;
+  left: 30px;
+  width: 40px;
+  top: 515px;
+}
+.featureInfo4 {
+  position: absolute;
+  left: 80px;
+  top: 516px;
+  margin: 0;
+  font-size: 14px;
+}
+.featureImg5 {
+  position: absolute;
+  left: 30px;
+  width: 40px;
+  top: 560px;
+}
+.featureInfo5 {
+  position: absolute;
+  left: 80px;
+  top: 560px;
+  margin: 0;
+  font-size: 14px;
+}
+.featureInfo6 {
+  position: absolute;
+  left: 80px;
+  top: 560px;
+  margin: 0;
+  font-size: 14px;
+}
+#slideshow6 {
+    margin: 50px 0;
+    position: relative;
+    width: 270px;
+    height: 733px;
+    padding: 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+#slideshow6 > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}

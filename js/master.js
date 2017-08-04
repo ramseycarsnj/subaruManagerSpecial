@@ -10,15 +10,6 @@ $(document).ready(function() {
       .appendTo('#slideshow');
   },  3000);
 
-  $("#slideshow2 > div:gt(0)").hide();
-  setInterval(function() {
-    $('#slideshow2 > div:first')
-      .fadeOut(1000)
-      .next()
-      .fadeIn(1000)
-      .end()
-      .appendTo('#slideshow2');
-  },  3000);
 
   $("#slideshow3 > div:gt(0)").hide();
   setInterval(function() {
@@ -68,6 +59,16 @@ $(document).ready(function() {
       .fadeIn(1000)
       .end()
       .appendTo('#slideshow8');
+  },  3000);
+
+  $("#slideshow9 > div:gt(0)").hide();
+  setInterval(function() {
+    $('#slideshow9 > div:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('#slideshow9');
   },  3000);
 
 });

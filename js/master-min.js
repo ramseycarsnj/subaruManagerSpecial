@@ -3,10 +3,6 @@ $(document).ready(function() {
     setInterval(function() {
         $("#slideshow > div:first").fadeOut(1e3).next().fadeIn(1e3).end().appendTo("#slideshow");
     }, 3e3);
-    $("#slideshow2 > div:gt(0)").hide();
-    setInterval(function() {
-        $("#slideshow2 > div:first").fadeOut(1e3).next().fadeIn(1e3).end().appendTo("#slideshow2");
-    }, 3e3);
     $("#slideshow3 > div:gt(0)").hide();
     setInterval(function() {
         $("#slideshow3 > div:first").fadeOut(1e3).next().fadeIn(1e3).end().appendTo("#slideshow3");
@@ -26,5 +22,9 @@ $(document).ready(function() {
     $("#slideshow8 > div:gt(0)").hide();
     setInterval(function() {
         $("#slideshow8 > div:first").fadeOut(1e3).next().fadeIn(1e3).end().appendTo("#slideshow8");
+    }, 3e3);
+    $("#slideshow9 > div:gt(0)").hide();
+    setInterval(function() {
+        $("#slideshow9 > div:first").fadeOut(1e3).next().fadeIn(1e3).end().appendTo("#slideshow9");
     }, 3e3);
 });
